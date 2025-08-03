@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Blockstack Chrome Extension",
+  "version": "1.0",
+  "description": "A simple extension to block a specific domain.",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["*://*.substack.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
